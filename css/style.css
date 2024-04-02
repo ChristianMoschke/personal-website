@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.logo a {
+  color: #292929;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu ul li {
+  margin-right: 20px;
+}
+
+.menu ul li:last-child {
+  margin-right: 0;
+}
+
+.menu ul li a {
+  color: #292929;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  text-decoration: none;
+  background-color: lightblue;
+}
+
+table {
+  background-color: lightblue;
+}
+
+#profilepicture {
+  height: 300px;
+  border-radius: 50%;
+}
